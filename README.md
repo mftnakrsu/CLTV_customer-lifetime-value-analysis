@@ -61,5 +61,17 @@ Finally, CLTV is calculated using the following formula:
 CLTV = (Customer Value / Churn Rate) x Profit Margin
 ```
 
-This step-by-step guide provides a detailed explanation of how to calculate Customer Lifetime Value (CLTV). These calculations can help your business develop personalized marketing strategies and revenue forecasts.
+## Step 6: Demo
+### Dataset Overview
 
+The [Online Retail II dataset](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II) contains sales data from an online retail store based in the United Kingdom, covering the period from 01/12/2009 to 09/12/2011.
+### Variables
+
+- **InvoiceNo:** Invoice number, a unique number for each transaction. Transactions starting with 'C' represent canceled orders.
+- **StockCode:** Product code, a unique number for each product.
+- **Description:** Product name.
+- **Quantity:** Quantity of products sold, indicating how many of the items on the invoices were sold.
+- **InvoiceDate:** Invoice date and time.
+- **UnitPrice:** Product price (in Sterling).
+- **CustomerID:** Unique customer identifier.
+- **Country:** Country name, representing the customer's location.
